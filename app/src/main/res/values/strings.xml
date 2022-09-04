@@ -1,12 +1,28 @@
 <resources>
     <string name="app_name">PruebaApp</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
+    <!-- Strings used for fragments for navigation
+
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="previous">Previous</string> -->
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string translatable="false" name="depth_use_explanation">Cuando la profundidad está habilitada en los dispositivos compatibles, los objetos virtuales se adaptan al entorno mezclándose con el mundo real.</string>
+    <string translatable="false" name="button_text_enable_depth">Habilitar</string>
+    <string translatable="false" name="button_text_disable_depth">Deshabilitar</string>
+    <string translatable="false" name="options_title_with_depth">Su dispositivo admite profundidad</string>
+    <string translatable="false" name="options_title_without_depth">Su dispositivo no admite profundidad</string>
+    <string translatable="false" name="done">Hecho</string>
+    <string-array translatable="false" name="depth_options_array">
+        <item>Habilitar profundidad</item>
+        <item>Mostrar mapa de profundidad</item>
+    </string-array>
+    <string translatable="false" name="options_title_instant_placement">Opciones de ubicación instantánea</string>
+    <string-array name="instant_placement_options_array">
+        <item>Habilitar ubicación instantánea</item>
+    </string-array>
+
+    <string translatable="false" name="searching_planes">Buscando superficies...</string>
+    <string translatable="false" name="waiting_taps">Toque en una superficie para colocar un objeto.</string>
 </resources>
