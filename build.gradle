@@ -5,6 +5,27 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.7.0' apply false
 }
 
+buildscript{
+    ext.kotlin_version = '1.4.20'
+    repositories{
+        google()
+        mavenCentral()
+    }
+    dependencies{
+        classpath 'com.android.tools.build:gradle:7.0.4'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+
+}
+
+allprojects{
+    repositories{
+        google()
+        mavenCentral()
+        mavenLocal()
+    }
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
