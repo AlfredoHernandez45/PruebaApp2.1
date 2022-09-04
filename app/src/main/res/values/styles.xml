@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Tema de la aplicación base, según el nivel de la API. Este tema es reemplazado
+    por AppBaseTheme de res/values-vXX/styles.xml en dispositivos más nuevos.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+       Las personalizaciones de temas disponibles en los niveles de API más nuevos pueden incluirse
+       res/values-vXX/styles.xml, mientras que las personalizaciones relacionadas con
+       la compatibilidad con versiones anteriores puede ir aquí.
+        -->
+    </style>
+
+    <!--Tema de la aplicación.-->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!--Todas las personalizaciones que NO son específicas de un nivel de API en particular pueden ir aquí.-->
+    </style>
+</resources>
